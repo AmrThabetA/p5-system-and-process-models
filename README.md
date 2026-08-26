@@ -10,6 +10,7 @@ This repository collects the visual models supporting the [P5 Governed Agentic R
 
 | ID | Model | Type | Rendering |
 |---|---|---|---|
+| UML-01 | P5 use-case model | Use-case diagram | [PNG](uml/UML-01_use_case_diagram.png) |
 | UML-02 | System context and component view | Structured component-style view; see notation caveat | [PNG](uml/UML-02_system_context_component.png) |
 | UML-03 | Executive question | Sequence diagram | [PNG](uml/UML-03_executive_question_sequence.png) |
 | UML-04 | Denial investigation and appeal | Sequence diagram | [PNG](uml/UML-04_denial_appeal_sequence.png) |
@@ -21,7 +22,7 @@ This repository collects the visual models supporting the [P5 Governed Agentic R
 
 UML-02 uses a structured Mermaid flowchart because Mermaid does not provide formal UML component-diagram notation. The other listed models use Mermaid-supported UML diagram types.
 
-UML-01, the use-case diagram, is embedded in Confluence as a draw.io object and is not included in this first public export. Its editable `.drawio.xml` source or an SVG/PDF export should be added before the catalogue is treated as complete.
+UML-01 is included as a review rendering. Its editable `.drawio.xml` source remains the preferred authoritative version for future updates.
 
 ## Process maps
 
@@ -36,9 +37,9 @@ These are conceptual process maps created in Miro. They are **not formal BPMN 2.
 
 The images in this repository are review renderings. Editable Mermaid, draw.io, Miro, or BPMN source files should remain the authoritative versions whenever they are available. Changes should be made in the source and then re-exported to prevent drift.
 
-Preferred future additions:
+Preferred future source additions:
 
-- UML-01 as `.drawio.xml` plus SVG or PNG
+- UML-01 as `.drawio.xml`
 - UML-02 to UML-09 as `.mmd` source files
 - Formal BPMN models as `.bpmn` or editable draw.io XML, plus PDF/SVG renderings
 
